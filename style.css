@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    background-color: #fdae9c;
+    padding-top: 3px;
+    margin-bottom: 2px;
+    font-family: 'PT Sans', sans-serif;
+    /* filter: hue-rotate(20deg) brightness(10%) grayscale(5%); */
+}
+
+.navbar img{
+    /* height: 100px; */
+    width: 100px;
+    padding-left: 20px;
+   
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    /* justify-content: center; */
+}
+
+.navbar li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+
+
+.bg-img{
+    background-image: url('./lago-di-limides-3025780_1920.jpg');
+    height: 90vh;
+    color: #fdae9c;
+    /* background-image: linear-gradient(to right, #fb6d4d, #fd9e88); */
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+   
+   
+}
+
+button{
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+   background-color: #32130b;
+   cursor: pointer;
+   color:rgb(235, 216, 191);
+   ;
+   
+}
+
+.hero-txt{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #32130b;
+    letter-spacing: 3px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    color: #32130b;
+    letter-spacing: 5px;
+}
+
+.hero-content{
+    transform: translate(650px, 200px);
+    color: white;
+    width:700px;
+}
+
+.second-section,
+.third-section,
+.fourth-section{
+    font-family: 'PT Sans', sans-serif;
+    height:90vh;
+   text-align: center;
+   padding-top:20px;
+   font-size: 25px;
+   color: #32130b;
+}
+
+span{
+    color: #fb5d39;
+}
+
+footer{
+    height: 30vh;
+    width: 100vw;
+    padding-top: 50px;
+    background-color: #973822;
+    text-align: center;
+   letter-spacing: 5px;
+   font-family: 'PT Sans', sans-serif;
+   color:burlywood;
+}
+
+.second-section{
+    background-color: #fecec4;
+}
+
+.third-section{
+    background-color: #fedfd7;
+}
+
+.fourth-section{
+    background-color: #fecec4;
+}
+
+.second-section img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border:solid #c94a2e;
+    border-radius: 3px;
+}
+
+.ss-img{
+    display: flex;
+    align-items:flex-start;
+    margin-right: 100px;
+    padding-top: 20px;
+    margin-right: 50px;
+   
+}
+
+.second-img{
+    transform: translate(-150px, 120px);
+  
+}
+
+.ss-txt{
+    height: 200px;
+    width:500px;
+    object-fit: contain;
+    
+    
+}
+
+.ss-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ts-content img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ts-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.lotus-img{
+    height:200px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.fs-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+.fs-img img{
+    height: 400px;
+    width: 400px;
+    border-radius: 3px;
+    object-fit: cover;
+}
