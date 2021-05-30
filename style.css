@@ -14,16 +14,21 @@
     height: 10vh;
     width: 100vw;
     background-color: #fdae9c;
-    padding-top: 3px;
-    margin-bottom: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 7px;
     font-family: 'PT Sans', sans-serif;
+    z-index: 9999;
     /* filter: hue-rotate(20deg) brightness(10%) grayscale(5%); */
 }
 
 .navbar img{
     /* height: 100px; */
-    width: 100px;
+    height: 20vh;
+    width: 80px;
     padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
    
 }
 
@@ -76,7 +81,7 @@ button{
     margin-top: 5px;
     font-size: 20px;
     font-weight: bolder;
-    color: #32130b;
+    color: rgb(235, 216, 191);
     letter-spacing: 3px;
     font-family: 'PT Sans', sans-serif;
 }
@@ -138,6 +143,7 @@ footer{
     object-fit: cover;
     border:solid #c94a2e;
     border-radius: 3px;
+    margin-left: 30px;
 }
 
 .ss-img{
@@ -150,7 +156,7 @@ footer{
 }
 
 .second-img{
-    transform: translate(-150px, 120px);
+    transform: translate(-150px, 110px);
   
 }
 
@@ -158,6 +164,7 @@ footer{
     height: 200px;
     width:500px;
     object-fit: contain;
+    margin-right: 30px;
     
     
 }
@@ -183,9 +190,9 @@ footer{
 }
 
 .lotus-img{
-    height:200px;
+    height:100px;
     width: 200px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .fs-img{
